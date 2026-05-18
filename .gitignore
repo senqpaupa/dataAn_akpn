@@ -7,3 +7,7 @@ build/
 .env
 .env.local
 work-2/.env
+work-3/.env
+work-3/outputs/
+__pycache__/
+.venv/
