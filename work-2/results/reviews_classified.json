@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "task": "review_sentiment_and_topic_classification",
+    "llm_provider": "openai",
+    "client": "codex-cli",
+    "api_url": null,
+    "model": "gpt-5.5",
+    "input_file": "work-2/data/reviews.csv",
+    "generated_at": "2026-05-18T12:38:46.053540+00:00",
+    "item_count": 10
+  },
+  "results": [
+    {
+      "id": "1",
+      "sentiment": "positive",
+      "topic": "Delivery and Packaging",
+      "summary": "Курьер приехал вовремя, упаковка не повреждена, товар соответствует описанию.",
+      "confidence": 0.98
+    },
+    {
+      "id": "2",
+      "sentiment": "negative",
+      "topic": "App Payment Issues",
+      "summary": "Приложение зависает при оплате, из-за чего заказ пришлось перезапускать несколько раз.",
+      "confidence": 0.99
+    },
+    {
+      "id": "3",
+      "sentiment": "neutral",
+      "topic": "Support Response Time",
+      "summary": "Цена устроила, но поддержка отвечала почти сутки, поэтому впечатление неоднозначное.",
+      "confidence": 0.9
+    },
+    {
+      "id": "4",
+      "sentiment": "positive",
+      "topic": "Audio Quality",
+      "summary": "Наушники отлично звучат, а шумоподавление оказалось лучше ожиданий.",
+      "confidence": 0.99
+    },
+    {
+      "id": "5",
+      "sentiment": "negative",
+      "topic": "Order Cancellation",
+      "summary": "Заказ отменили без объяснений, а возврат денег занял неделю.",
+      "confidence": 0.99
+    },
+    {
+      "id": "6",
+      "sentiment": "positive",
+      "topic": "Setup and Reliability",
+      "summary": "Инструкция понятная, сборка быстрая, устройство работает стабильно.",
+      "confidence": 0.98
+    },
+    {
+      "id": "7",
+      "sentiment": "neutral",
+      "topic": "Delivery Delay Handling",
+      "summary": "Доставка задержалась, но менеджер заранее предупредил и предложил скидку.",
+      "confidence": 0.88
+    },
+    {
+      "id": "8",
+      "sentiment": "negative",
+      "topic": "Build Quality",
+      "summary": "Пластик низкого качества и крышка люфтит, хотя дизайн понравился.",
+      "confidence": 0.94
+    },
+    {
+      "id": "9",
+      "sentiment": "positive",
+      "topic": "Shopping Experience",
+      "summary": "Повторная покупка прошла хорошо: удобный ассортимент, нормальные цены и быстрое оформление.",
+      "confidence": 0.98
+    },
+    {
+      "id": "10",
+      "sentiment": "neutral",
+      "topic": "Damaged Item Replacement",
+      "summary": "Товар пришел с царапиной, но поддержка быстро оформила замену после фото.",
+      "confidence": 0.86
+    }
+  ]
+}
