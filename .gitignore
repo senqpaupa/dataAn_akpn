@@ -2,5 +2,8 @@
 node_modules/
 dist/
 build/
+
+# Local environment files with secrets
 .env
 .env.local
+work-2/.env
